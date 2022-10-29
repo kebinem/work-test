@@ -1,0 +1,53 @@
+.rightSide {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-75%);
+  width: 450px;
+  display: flex;
+  height: 35vh;
+}
+
+.note {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  color: white;
+  opacity: 0;
+  animation: opacity 1s ease;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.skills {
+  position: absolute;
+  bottom: -100%;
+  color: white;
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  animation: showBottom 1s ease;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showBottom {
+  0% {
+    position: absolute;
+    bottom: -100%;
+  }
+  100% {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.skills div h1 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-align: center;
+}

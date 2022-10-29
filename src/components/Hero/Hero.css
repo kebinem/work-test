@@ -1,0 +1,11 @@
+.hero {
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  cursor: pointer;
+}
+
+.hero:active {
+  height: 95vh;
+}

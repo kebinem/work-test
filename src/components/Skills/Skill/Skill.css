@@ -1,0 +1,33 @@
+.scill {
+  width: inherit;
+  height: inherit;
+  background: rgba(37, 37, 37, 0.726);
+  padding: 12px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification {
+  position: absolute;
+  top: 35%;
+  margin: auto;
+  color: rgb(224, 37, 24);
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  text-align: center;
+  animation: coolOpacity 1s ease-in-out;
+}
+
+@keyframes coolOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}

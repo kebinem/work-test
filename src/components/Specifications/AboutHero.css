@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+
+.form__input {
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input__hero-name {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  width: 220px;
+  text-align: center;
+  opacity: 0;
+  animation: opacity 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-name {
+  font-family: "Press Start 2P", cursive;
+  font-size: 25px;
+
+  box-sizing: border-box;
+
+  border: none;
+  width: 220px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.just-name {
+  cursor: pointer;
+}
+
+.parameters {
+  margin-top: 15px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.save {
+  font-family: "Orelega One", cursive;
+  font-size: 25px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.inputFile:hover {
+  cursor: pointer;
+}
+
+.input__wrapper {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.input__file-icon-wrapper {
+  height: 35px;
+  width: 60px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #000;
+}
+
+.input__file-button-text {
+  line-height: 1;
+  margin-top: 1px;
+}
+
+.input__file-button {
+  background: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.form__input a {
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 10px 25%;
+}

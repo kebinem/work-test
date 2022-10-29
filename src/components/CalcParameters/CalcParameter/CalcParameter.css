@@ -1,0 +1,34 @@
+.calcParameter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.calcParameter:last-child {
+  margin-bottom: 0px;
+}
+
+.calcParameter:nth-child(2) h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  transform: rotate(-45deg) translate(-50%, -100%);
+}
+
+.calcParameter h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  transform: rotate(-45deg) translate(-45%, -200%);
+}
+
+.calcParameter p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 25px;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: -25px;
+  left: 60px;
+}
